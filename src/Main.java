@@ -11,5 +11,7 @@ public class Main {
         System.out.printf("Nome: %s%n", aluno.get_name());
         System.out.printf("Idade: %s%n", aluno.get_age());
         System.out.printf("Situação do aluno: %s%n", aluno.get_registrarionSituation());
+        System.out.printf("CPF: %s%n", aluno.get_CPF());
+        System.out.printf("Matrícula: %s%n", aluno.get_registration());
     }
 }

@@ -34,9 +34,7 @@ public abstract class Pessoa {
         return this._age;
     }
 
-    public void registrationGenerator(){
-
-    };
+    protected abstract String registrationRegenrator();
 
     public Pessoa(String name, String CPF, int age){
         this.set_name(name);
