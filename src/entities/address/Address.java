@@ -35,6 +35,10 @@ public class Address {
         this._houseNumber = houseNumber;
     }
 
+    public String toString(){
+        return " Cep: " + _cep + " Rua: " + _street + " cidade: " + _city;
+    }
+
     public Address(String cep, String street, String city, String houseNumber){
         this.set_cep(cep);
         this.set_street(street);
