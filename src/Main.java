@@ -15,12 +15,12 @@ public class Main {
         System.out.printf("CPF: %s%n", aluno.get_CPF());
         System.out.printf("Matrícula: %s%n", aluno.get_registration());
         System.out.printf("Brasileiro? %s%n", aluno.get_brazilian());
-        System.out.println("Endereço:" + aluno.recAddress(0));
+        System.out.printf("Endereço: %s%n", aluno.recAddress(0));
 
         System.out.println("Dados professor:");
 
         Address[] addressesProfessor = new Address[2];
-        addressesAluno[0] = new Address("49000-001", "Rua 2", "Aracajú", "120");
+        addressesProfessor[0] = new Address("49000-001", "Rua 2", "Aracajú", "120");
 
         Professor professor = new Professor("Davis","000.000.000-00",true,addressesProfessor,35);
         System.out.printf("Nome: %s%n", professor.get_name());
@@ -28,5 +28,6 @@ public class Main {
         System.out.printf("CPF: %s%n", professor.get_CPF());
         System.out.printf("Matrícula: %s%n", professor.get_registration());
         System.out.printf("Brasileiro? %s%n", professor.get_brazilian());
+        System.out.printf("Endereço: %s%n", professor.recAddress(0));
     }
 }
